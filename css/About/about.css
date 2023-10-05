@@ -1,0 +1,28 @@
+.about__container {
+    padding: 10% 0 0 10%;
+    width: 60%;
+    height: fit-content;
+}
+
+.about__title {
+    margin-top: 0;
+    font-size: 2rem;
+
+}
+
+.about__paragraph {
+    line-height: 25px;
+    text-align: justify;
+
+}
+
+
+@media screen and (max-width:1023px) {
+
+    .about__container {
+        margin-left: 5%;
+        width: 70%;
+
+
+    }
+}

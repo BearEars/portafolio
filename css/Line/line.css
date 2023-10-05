@@ -1,0 +1,6 @@
+.line {
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

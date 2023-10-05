@@ -1,0 +1,100 @@
+:root {
+
+    --color-de-fondo: #F8F9F9;
+    --tamano_titulo: 2rem;
+    --tamano_titulo_principal: 4rem;
+    --tamano_cajas: 12rem;
+
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1vw;
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--color-de-fondo);
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+
+}
+
+
+ol,
+ul,
+li {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-de-link);
+}
+
+
+/* background principal */
+.div_background {
+    box-sizing: border-box;
+    background-image: url(/assets/banner.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: bottom;
+}
+
+/* titulos en general */
+.title {
+    font-size: var(--tamano_titulo);
+    width: 100%;
+    text-align: center;
+    padding: 10rem 0 4rem 0;
+    margin: 0;
+}
+
+
+
+
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width:1023px) {
+    :root {
+        --tamano_cajas: 160px;
+    }
+
+    * {
+        font-size: 1vh;
+    }
+
+    .div_background {
+        height: 70vh;
+
+    }
+
+
+
+
+
+}
+
+/*Mobile*/
+@media screen and (max-width: 767px) {
+    :root {
+        --tamano_cajas: 100px;
+    }
+
+    * {
+        font-size: 1vh;
+    }
+
+    .div_background {
+        height: 70vh;
+
+    }
+}

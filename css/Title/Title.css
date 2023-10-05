@@ -1,0 +1,39 @@
+section.title_princ {
+
+    margin: 10% 0 10% 10%;
+    text-align: center;
+}
+
+.title__container {
+    display: grid;
+    align-items: center;
+    width: 80%;
+    color: aliceblue;
+
+
+}
+
+.title__bio {
+    font-size: var(--tamano_titulo_principal);
+    margin: initial;
+    line-height: 4.5rem;
+    text-align: center;
+}
+
+.title__subsection {
+    font-style: initial;
+}
+
+.title__network {
+    display: flex;
+    margin-top: 5%;
+}
+
+.title__network__item {
+    transition: 400ms;
+    color: sandybrown;
+}
+
+.title__network__item:hover {
+    scale: 1.2;
+}

@@ -11,8 +11,9 @@
 }
 
 .about__paragraph {
-    line-height: 25px;
+    line-height: 30px;
     text-align: justify;
+    font-size: medium;
 
 }
 
@@ -20,9 +21,8 @@
 @media screen and (max-width:1023px) {
 
     .about__container {
-        margin-left: 5%;
-        width: 70%;
-
-
+        width: 80%;
     }
+
+
 }

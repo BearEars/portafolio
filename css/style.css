@@ -69,7 +69,7 @@ a {
     }
 
     * {
-        font-size: 1vh;
+        font-size: 1.45vh;
     }
 
     .div_background {
@@ -87,14 +87,19 @@ a {
 @media screen and (max-width: 767px) {
     :root {
         --tamano_cajas: 100px;
+        --tamano_titulo_principal: 2.5rem;
     }
 
     * {
-        font-size: 1vh;
+        font-size: 1.6vh;
     }
 
     .div_background {
         height: 70vh;
 
+    }
+
+    a {
+        font-weight: normal;
     }
 }

@@ -1,9 +1,9 @@
 section.menu {
-    display: flex;
-    justify-content: center;
     width: 100%;
+    display: flex;
     justify-content: space-around;
     padding: 1rem 0;
+    align-items: center;
 }
 
 .menu__header {
@@ -51,6 +51,11 @@ section.menu {
 
 
 @media screen and (max-width:1023px) {
+    .menu__title {
+        font-size: 1rem;
+        font-weight: normal;
+
+    }
 
     .menu__list__item:not(:last-child) {
         display: none;

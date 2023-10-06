@@ -1,6 +1,6 @@
 section.title_princ {
 
-    margin: 10% 0 10% 10%;
+    margin: 10% 0 0 15%;
     text-align: center;
 }
 
@@ -9,13 +9,10 @@ section.title_princ {
     align-items: center;
     width: 80%;
     color: aliceblue;
-
-
 }
 
 .title__bio {
     font-size: var(--tamano_titulo_principal);
-    margin: initial;
     line-height: 4.5rem;
     text-align: center;
 }
@@ -36,4 +33,16 @@ section.title_princ {
 
 .title__network__item:hover {
     scale: 1.2;
+}
+
+@media screen and (max-width: 767px) {
+    .title__container {
+        width: 92%;
+    }
+
+    section.title_princ {
+        margin: 10% 0 0 10%;
+
+    }
+
 }

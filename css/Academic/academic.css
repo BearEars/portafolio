@@ -1,7 +1,7 @@
 .academic__courses {
-    width: 90%;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-bottom: 10rem;
 }
 
@@ -20,6 +20,7 @@
     text-align: center;
     margin-bottom: 20px;
 }
+
 
 @media (min-width: 768px) and (max-width:1023px) {
     .academic__courses {

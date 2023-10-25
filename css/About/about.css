@@ -16,15 +16,26 @@
     font-size: larger;
 }
 
+/* mobile responsive */
+@media screen and (max-width: 767px) {
+    .about__container {
+        width: 80%;
+    }
 
-@media screen and (max-width:1023px) {
+    .about__paragraph {
+        font-size: small;
+    }
+}
+
+/* tablet responsive */
+@media screen and (min-width:768px) and (max-width:1023px) {
 
     .about__container {
         width: 80%;
     }
 
     .about__paragraph {
-        font-size: x-large;
+        font-size: large;
     }
 
 }

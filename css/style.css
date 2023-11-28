@@ -4,8 +4,8 @@
     --color-footer: #EAECEE;
     --tamano_titulo: 2rem;
     --tamano_titulo_principal: 4rem;
-    --tamano_cajas: 12rem;
-
+    --tamano_cajas_w: 16rem;
+    --tamano_cajas_h: 12rem
 }
 
 * {

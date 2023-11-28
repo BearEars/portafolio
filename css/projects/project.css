@@ -1,3 +1,7 @@
+.experience__container {
+    background-color: #eeeeee;
+}
+
 .experience__box {
     width: 90%;
     margin: auto;
@@ -13,6 +17,7 @@
 .experience__img {
     width: 60vw;
     max-width: 650px;
+    border-radius: 10px;
 }
 
 .experience__info {

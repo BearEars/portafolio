@@ -13,6 +13,7 @@
 
 .academic__courses__item__img {
     padding: 25px;
+    max-width: 300px;
     background-color: var(--white-text);
     border-radius: 12px;
     border: 2px solid white;

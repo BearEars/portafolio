@@ -19,12 +19,19 @@
     <link rel="stylesheet" href="css/projects/buttons/buttons.css">
     <link rel="stylesheet" href="css/Footer/footer.css">
 
+    <link rel="stylesheet" href="css/card/cards.css">
+
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+    <!-- font 2 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&display=swap" rel="stylesheet">
+
     <title> Mi Portafolio</title>
     <link rel="icon" type="image/x-icon" href="https://github.com/BearEars.png">
 
@@ -34,7 +41,7 @@
     <!--  Menú  -->
     <div class="tudo">
         <div class="div_background">
-            <section class="menu">
+            <div class="menu">
                 <header class="menu__header">
                     <h3 class="menu__title">Fabián Rodriguez</h3>
                 </header>
@@ -49,25 +56,24 @@
                     </ul>
 
                 </nav>
-            </section>
+            </div>
 
             <!-- Header -->
             <section class="title_princ">
                 <div class="title__container">
-                    <h2 class="title__bio">Hola, mi nombre es Fabián Rodriguez y bienvenido a mi portafolio</h2>
+                    <h2 class="title__bio">Hola, bienvenido a mi portafolio</h2>
                     <ul class="title__network">
                         <!-- Social media -->
-                        <li class="title__network__item"><a href="https://github.com/BearEars" target="_blank">Github
-                                <img src="assets\arrow.png" alt="link"> </a>
+                        <li class="title__network__item"><a href="https://github.com/BearEars" target="_blank">Github</a>
                         </li>
                         <li class="title__network__item"><a href="https://www.linkedin.com/in/bearears/"
-                                target="_blank">Linkedin <img src="assets\arrow.png" alt="link"></a>
+                                target="_blank">Linkedin</a>
                         </li>
                         <li class="title__network__item"><a href="https://www.instagram.com/fabian_rodrigez_17/"
-                                target="_blank">Instagram <img src="assets\arrow.png" alt="link"></a>
+                                target="_blank">Instagram</a>
                         </li>
                         <li class="title__network__item"><a href="docs/Fabian Rodriguez Rojas CV.pdf"
-                                target="_blank">Currículo <img src="assets\arrow.png" alt="link"></a>
+                                target="_blank">Currículo</a>
                         </li>
                     </ul>
                 </div>
@@ -108,55 +114,90 @@
         <section class="skills__hobbies" id="skills">
             <h3 class="title">Skills</h3>
             <div class="line">
-                <div class="box" id="html__box">
-                    <ul>
-                        <li class="box__img"><img class="box__img__img" src="assets/html.svg" alt="HTML"></li>
-                        <li class="box__name"> HTML 5</li>
-                    </ul>
-                </div>
 
-                <div class="box">
-                    <ul>
-                        <li class="box__img"> <img class="box__img__img" src="assets/Javascript.svg" alt="JavaScript">
-                        </li>
-                        <li class="box__name">Javascript</li>
-                    </ul>
+                <div class="card">
+                    <div class="content">
+                      <div class="back">
+                        <div class="back-content">
+                            <ul class="inside__box">
+                                <li class="box__img"><img class="box__img__img" src="assets/skills/html.svg" alt="HTML"></li>
+                                <li class="box__name"> HTML 5</li>
+                            </ul>
+                        </div>
+                      </div>                        
+                    </div>
                 </div>
-
-                <div class="box">
-                    <ul>
-                        <li class="box__img"><img class="box__img__img" src="assets/nodeJS.svg" alt="Node JS"></li>
-                        <li class="box__name">Node JS</li>
-                    </ul>
+                <div class="card">
+                    <div class="content">
+                      <div class="back">
+                        <div class="back-content">
+                            <ul class="inside__box">
+                                <li class="box__img"> <img class="box__img__img" src="assets/skills/Javascript.svg" alt="JavaScript"></li>
+                                <li class="box__name">Javascript</li>
+                            </ul>
+                        </div>
+                      </div>                        
+                    </div>
                 </div>
-
-                <div class="box">
-                    <ul>
-                        <li class="box__img"> <img class="box__img__img" src="assets/react-svgrepo-com.svg" alt="React">
-                        </li>
-                        <li class="box__name">React</li>
-                    </ul>
+                <div class="card">
+                    <div class="content">
+                      <div class="back">
+                        <div class="back-content">
+                            <ul class="inside__box">
+                                <li class="box__img"><img class="box__img__img" src="assets/skills/nodeJS.svg" alt="Node JS"></li>
+                                <li class="box__name">Node JS</li>
+                            </ul>
+                        </div>
+                      </div>                        
+                    </div>
                 </div>
-
-                <div class="box">
-                    <ul>
-                        <li class="box__img"> <img class="box__img__img" src="assets/css-svgrepo-com.svg" alt="CSS">
-                        </li>
-                        <li class="box__name">CSS</li>
-                    </ul>
+                <div class="card">
+                    <div class="content">
+                      <div class="back">
+                        <div class="back-content">
+                            <ul class="inside__box">
+                                <li class="box__img"> <img class="box__img__img" src="assets/skills/react-svgrepo-com.svg" alt="React"></li>
+                                <li class="box__name">React</li>
+                            </ul>
+                        </div>
+                      </div>                        
+                    </div>
                 </div>
-                <div class="box">
-                    <ul>
-                        <li class="box__img"> <img class="box__img__img" src="assets/JQuery.svg" alt="Jquery"> </li>
-                        <li class="box__name">Jquery</li>
-                    </ul>
+                <div class="card">
+                    <div class="content">
+                      <div class="back">
+                        <div class="back-content">
+                            <ul class="inside__box">
+                                <li class="box__img"> <img class="box__img__img" src="assets/skills/css-svgrepo-com.svg" alt="CSS"></li>
+                                <li class="box__name">CSS</li>
+                            </ul>
+                        </div>
+                      </div>                        
+                    </div>
                 </div>
-                <div class="box">
-                    <ul>
-                        <li class="box__img"> <img class="box__img__img" src="assets/Bootstrap.svg" alt="Bootstrap">
-                        </li>
-                        <li class="box__name">Bootstrap</li>
-                    </ul>
+                <div class="card">
+                    <div class="content">
+                      <div class="back">
+                        <div class="back-content">
+                            <ul class="inside__box">
+                                <li class="box__img"> <img class="box__img__img" src="assets/skills/JQuery.svg" alt="Jquery"> </li>
+                                <li class="box__name">Jquery</li>
+                            </ul>
+                        </div>
+                      </div>                        
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                      <div class="back">
+                        <div class="back-content">
+                            <ul class="inside__box">
+                                <li class="box__img"> <img class="box__img__img" src="assets/skills/Bootstrap.svg" alt="Bootstrap"></li>
+                                <li class="box__name">Bootstrap</li>
+                            </ul>
+                        </div>
+                      </div>                        
+                    </div>
                 </div>
             </div>
         </section>
@@ -165,40 +206,65 @@
         <section class="skills__hobbies" id="hobbies">
             <h3 class="title">Hobbies</h3>
             <div class="line">
-                <div class="box">
-                    <ul>
-                        <li class="box__img"> <img class="box__img__img" src="assets/libro.svg" alt="Leer"></li>
-                        <li class="box__name">Leer</li>
-                    </ul>
+                <div class="card">
+                    <div class="content">
+                      <div class="back">
+                        <div class="back-content">
+                            <ul class="inside__box">
+                                <li class="box__img"> <img class="box__img__img" src="assets/hobbies/libro.svg" alt="Leer"></li>
+                                <li class="box__name">Leer</li>
+                            </ul>
+                        </div>
+                      </div>                        
+                    </div>
                 </div>
-
-                <div class="box">
-                    <ul>
-                        <li class="box__img"> <img class="box__img__img" src="assets/spotify.svg" alt="Musica"></li>
-                        <li class="box__name">Música</li>
-                    </ul>
+                <div class="card">
+                    <div class="content">
+                      <div class="back">
+                        <div class="back-content">
+                            <ul class="inside__box">
+                                <li class="box__img"> <img class="box__img__img" src="assets/hobbies/spotify.svg" alt="Musica"></li>
+                                <li class="box__name">Música</li>
+                            </ul>
+                        </div>
+                      </div>                        
+                    </div>
                 </div>
-
-                <div class="box">
-                    <ul>
-                        <li class="box__img"><img class="box__img__img" src="assets/Netflix.svg" alt="Series"></li>
-                        <li class="box__name">Peliculas </li>
-                    </ul>
+                <div class="card">
+                    <div class="content">
+                      <div class="back">
+                        <div class="back-content">
+                            <ul class="inside__box">
+                                <li class="box__img"><img class="box__img__img" src="assets/hobbies/Netflix.svg" alt="Series"></li>
+                                <li class="box__name">Peliculas </li>
+                            </ul>
+                        </div>
+                      </div>                        
+                    </div>
                 </div>
-
-                <div class="box">
-                    <ul>
-                        <li class="box__img"> <img class="box__img__img" src="assets/dish.svg" alt="Cocinar"> </li>
-                        <li class="box__name">Cocinar</li>
-                    </ul>
+                <div class="card">
+                    <div class="content">
+                      <div class="back">
+                        <div class="back-content">
+                            <ul class="inside__box">
+                                <li class="box__img"> <img class="box__img__img" src="assets/hobbies/dish.svg" alt="Cocinar"> </li>
+                                <li class="box__name">Cocinar</li>
+                            </ul>
+                        </div>
+                      </div>                        
+                    </div>
                 </div>
-
-                <div class="box">
-                    <ul>
-                        <li class="hobbies__img"> <img class="box__img__img" src="assets/playStation.svg"
-                                alt="Videojuegos"> </li>
-                        <li class="box__name">Videojuegos</li>
-                    </ul>
+                <div class="card">
+                    <div class="content">
+                      <div class="back">
+                        <div class="back-content">
+                            <ul class="inside__box">
+                                <li class="hobbies__img"> <img class="box__img__img" src="assets/hobbies/playStation.svg" alt="Videojuegos"> </li>
+                                <li class="box__name">Videojuegos</li>
+                            </ul>
+                        </div>
+                      </div>                        
+                    </div>
                 </div>
             </div>
         </section>
@@ -212,14 +278,14 @@
                 <div class="academic__courses__box">
                     <ul class="academic__courses__list">
 
-                        <li class="academic__courses__item__img"><img src="assets/WISE_Logo.jpg" alt="Wise Academy">
+                        <li class="academic__courses__item__img"><img src="assets/Academic/WISE_Logo-removebg-preview.png" alt="Wise Academy">
                         </li>
                         <div class="academic__description">
                             <li class="academic__courses__item__title">
                                 <h4>Formacion del ingles</h4>
                             </li>
                             <li class="academic__courses__item__subtitle">
-                                <p>2022 - Presente</p>
+                                <p>2022 - 2023</p>
                             </li>
                         </div>
 
@@ -230,7 +296,7 @@
                 <div class="academic__courses__box">
                     <ul class="academic__courses__list">
 
-                        <li class="academic__courses__item__img"><img src="assets\alura_logo.png" alt="Alura Logo"></li>
+                        <li class="academic__courses__item__img"><img src="assets/Academic/alura_logo-removebg-preview.png" alt="Alura Logo"></li>
                         <div class="academic__description">
                             <li class="academic__courses__item__title">
                                 <h4>Formación en desarrollo web Front-End</h4>
@@ -247,7 +313,7 @@
                 <div class="academic__courses__box">
                     <ul class="academic__courses__list">
 
-                        <li class="academic__courses__item__img"><img src="assets/C.T.P.F.png"
+                        <li class="academic__courses__item__img"><img src="assets/Academic/C.T.P.F-removebg-preview.png"
                                 alt="Francisco J. Orlich Logo"></li>
                         <div class="academic__description">
                             <li class="academic__courses__item__title">
@@ -271,7 +337,7 @@
             <!-- Encriptador -->
             <div class="experience__box">
 
-                <img class="experience__img" src="assets/encriptador.png" alt="encriptador page image">
+                <img class="experience__img" src="assets/projects/encriptador_enh.png" alt="encriptador page image">
                 <div class="experience__info">
                     <h2 class="experience__title">Encriptador de texto</h2>
                     <h3 class="experience__text">Challenge Oracle</h3>
@@ -291,7 +357,7 @@
             <!-- Qr -->
             <div class="experience__box">
 
-                <img class="experience__img" src="assets/qr.png" alt="qr page image">
+                <img class="experience__img" src="assets/projects/qr_enh.png" alt="qr page image">
                 <div class="experience__info">
                     <h2 class="experience__title">Componente Qr</h2>
                     <h3 class="experience__text">Challenge Front-End Mentor</h3>
@@ -312,7 +378,7 @@
             <!-- Landing -->
             <div class="experience__box">
 
-                <img class="experience__img" src="assets/page_landing.png" alt="landing page image">
+                <img class="experience__img" src="assets/projects/landing_page.png" alt="landing page image">
                 <div class="experience__info">
                     <h2 class="experience__title">Landing page</h2>
                     <h3 class="experience__text">Challenge Front-End Mentor</h3>
@@ -333,7 +399,7 @@
             <!-- Checklist -->
             <div class="experience__box">
 
-                <img class="experience__img" src="assets/Checklist.png" alt="Checklist image">
+                <img class="experience__img" src="assets/projects/checklist_enh.png" alt="Checklist image">
                 <div class="experience__info">
                     <h2 class="experience__title">Checklist</h2>
                     <h3 class="experience__text">Alura project</h3>
@@ -350,28 +416,49 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Furniture -->
+            <div class="experience__box">
+
+                <img class="experience__img" src="assets/projects/Furniture_store.png" alt="Checklist image">
+                <div class="experience__info">
+                    <h2 class="experience__title">Furniture Store</h2>
+                    <h3 class="experience__text">Own project</h3>
+                    <div class="experience__description">
+
+                        <!-- links -->
+                        <span class="experience__repo"><a href="https://github.com/BearEars/Furniture-Store"
+                                target="_blank"><button class="experience__button_repo">Repositório</button></a>
+                        </span>
+                        <span class="experience__demo"><a href="https://sarchi-fine-woodworks.vercel.app/"
+                                target="_blank"><button class="experience__button_demo">Ver
+                                    demo</button></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
         </section>
     </div>
     <!-- Sección de Footer -->
     <section class="footer" id="contacto">
         <div class="footer__links">
             <a class="footer__img" href="https://github.com/BearEars" target="_blank">
-                <img src="assets/icons8-github-50.png" alt="Github">
+                <img src="assets/footer/icons8-github-50.png" alt="Github">
             </a>
             <a class="footer__img" href="https://www.linkedin.com/in/bearears" target="_blank">
-                <img src="assets/icons8-linked-in-50.png" alt="Linkedin">
+                <img src="assets/footer/icons8-linked-in-50.png" alt="Linkedin">
             </a>
             <a class="footer__img" href="https://www.instagram.com/fabian_rodrigez_17/" target="_blank">
-                <img src="assets/icons8-instagram-50.png" alt="Instagram">
+                <img src="assets/footer/icons8-instagram-50.png" alt="Instagram">
             </a>
             <a class="footer__img" href="mailto:rojasmf04@gmail.com">
-                <img src="assets/icons8-google-50.png" alt="email">
+                <img src="assets/footer/icons8-google-50.png" alt="email">
             </a>
         </div>
         <div class="footer__description">
             <p class="footer__p">Desarrollado por Fabián Rodriguez - 2023</p>
             <div class="iconsLink">
-                <p>Icons by </p>
+                <p class="footer__p">Icons by </p>
                 <a class="icons8" target="_blank" href="https://icons8.com">
                     Icons8
                 </a>

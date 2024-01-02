@@ -1,5 +1,5 @@
 .experience__container {
-    background-color: #eeeeee;
+    background-color: var(--color-de-fondo);
 }
 
 .experience__box {
@@ -26,10 +26,13 @@
 }
 
 .experience__title {
+    color: var(--white-text);
     font-size: 1rem;
+    font-weight: 700;
 }
 
 .experience__text {
+    color: var(--gray-text);
     font-weight: normal;
 }
 

@@ -31,7 +31,7 @@ section.title_princ {
 }
 
 .title__network__item:hover {
-    scale: 1.2;
+    scale: 1.05;
 }
 
 @media screen and (max-width: 767px) {

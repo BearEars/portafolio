@@ -1,4 +1,8 @@
-section.menu {
+.menu{
+    position: sticky;
+    top: 0;
+}
+.menu {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -36,7 +40,7 @@ section.menu {
 }
 
 .menu__list__item:hover {
-    scale: 1.2;
+    scale: 1.05;
     color: orange;
 }
 

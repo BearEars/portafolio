@@ -1,6 +1,10 @@
 :root {
 
-    --color-de-fondo: #F8F9F9;
+    --orange:#F4A460;
+    --white-text:#dadce0;
+    --gray-text:#a9aeb7;
+    --color-de-fondo: #202124;
+    --color-de-fondo-claro:#2f3134;
     --color-footer: #EAECEE;
     --tamano_titulo: 2rem;
     --tamano_titulo_principal: 4rem;
@@ -9,7 +13,7 @@
 }
 
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Unbounded', sans-serif;
     font-size: 1vw;
     scroll-behavior: smooth;
 }
@@ -52,6 +56,7 @@ a {
 
 /* titulos en general */
 .title {
+    color: var(--orange);
     font-size: var(--tamano_titulo);
     width: 100%;
     text-align: center;
@@ -83,11 +88,11 @@ a {
 @media screen and (max-width: 767px) {
     :root {
         --tamano_cajas: 100px;
-        --tamano_titulo_principal: 2.5rem;
+        --tamano_titulo_principal: 2rem;
     }
 
     * {
-        font-size: 1.6vh;
+        font-size: 1.4vh;
     }
 
     .div_background {

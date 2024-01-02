@@ -1,3 +1,6 @@
+.about{
+    background: linear-gradient( black,  #202124 );
+}
 .about__container {
     padding: 10% 0 0 10%;
     width: 60%;
@@ -5,12 +8,14 @@
 }
 
 .about__title {
+    color: var(--orange);
     margin-top: 0;
     font-size: 2rem;
 
 }
 
 .about__paragraph {
+    color: var(--white-text);
     line-height: 30px;
     text-align: justify;
     font-size: larger;

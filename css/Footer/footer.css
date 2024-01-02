@@ -5,7 +5,8 @@ section.footer {
 
 .footer__links {
     height: 200px;
-    background: #2e2e2e;
+    background-color: var(--gray-text);
+    background-image: url(https://www.transparenttextures.com/patterns/cartographer.png);
     padding: 0 35%;
     display: flex;
     flex-direction: row;
@@ -16,6 +17,7 @@ section.footer {
 .footer__description {
     display: grid;
     background: #212121;
+    background-image: url(https://www.transparenttextures.com/patterns/black-paper.png);
     text-align: center;
     align-items: center;
     height: 50px;
@@ -23,8 +25,9 @@ section.footer {
 }
 
 .footer__p {
+    font-size: small;
     margin: 0;
-    color: var(--color-footer);
+    color: var(--white-text);
 
 }
 
@@ -35,13 +38,14 @@ section.footer {
     justify-content: center;
     flex-direction: row;
     bottom: 15px;
-    color: var(--color-footer);
+    color: var(--white-text);
 }
 
 .icons8 {
     color: var(--color-footer);
     margin-left: 5px;
     border-bottom: var(--color-footer) solid 1px;
+    font-size: small;
 }
 
 @media screen and (max-width: 767px) {

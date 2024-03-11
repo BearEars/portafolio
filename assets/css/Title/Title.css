@@ -1,0 +1,47 @@
+section.title_princ {
+    margin: 10% 0 0 15%;
+    text-align: center;
+}
+
+.title__container {
+    display: grid;
+    align-items: center;
+    width: 80%;
+    color: aliceblue;
+}
+
+.title__bio {
+    font-size: var(--tamano_titulo_principal);
+    line-height: 4.5rem;
+    text-align: center;
+}
+
+.title__subsection {
+    font-style: initial;
+}
+
+.title__network {
+    display: flex;
+    margin-top: 5%;
+}
+
+.title__network__item {
+    transition: 400ms;
+    color: sandybrown;
+}
+
+.title__network__item:hover {
+    scale: 1.05;
+}
+
+@media screen and (max-width: 767px) {
+    .title__container {
+        width: 92%;
+    }
+
+    section.title_princ {
+        margin: 10% 0 0 10%;
+
+    }
+
+}

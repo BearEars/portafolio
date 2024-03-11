@@ -1,0 +1,34 @@
+.experience__repo {
+    margin-right: 1rem;
+}
+
+/* button repo */
+.experience__button_repo {
+    padding: 10px 22px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: grey;
+    transition: 350ms;
+}
+
+.experience__button_repo:hover {
+    scale: 1.1;
+}
+
+
+/* button demo */
+.experience__button_demo {
+    padding: 10px 22px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #EF6C00;
+    transition: 350ms;
+}
+
+.experience__button_demo:hover {
+    scale: 1.1;
+}

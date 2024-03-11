@@ -16,6 +16,7 @@
     font-family: 'Unbounded', sans-serif;
     font-size: 1vw;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body {
@@ -48,7 +49,7 @@ a {
 /* background principal */
 .div_background {
     box-sizing: border-box;
-    background-image: url(/portafolio/assets/banner.jpg);
+    background-image: url(/assets/banner.jpg);
     height: 100vh;
     width: 100%;
     background-position: bottom;

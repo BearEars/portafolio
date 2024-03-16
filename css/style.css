@@ -1,10 +1,10 @@
 :root {
 
-    --orange:#F4A460;
-    --white-text:#dadce0;
-    --gray-text:#a9aeb7;
+    --orange: #F4A460;
+    --white-text: #dadce0;
+    --gray-text: #a9aeb7;
     --color-de-fondo: #202124;
-    --color-de-fondo-claro:#2f3134;
+    --color-de-fondo-claro: #2f3134;
     --color-footer: #EAECEE;
     --tamano_titulo: 2rem;
     --tamano_titulo_principal: 4rem;
@@ -48,7 +48,7 @@ a {
 /* background principal */
 .div_background {
     box-sizing: border-box;
-    background-image: url(/portafolio/assets/banner.jpg);
+    background-image: url(/assets/banner.jpg);
     height: 100vh;
     width: 100%;
     background-position: bottom;
